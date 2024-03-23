@@ -6,8 +6,6 @@ Express with common settings and middlewares
 npm i simple-express
 ```
 
-Notice: `trust proxy` is enabled by default.
-
 ## Usage
 
 ```js
@@ -27,6 +25,9 @@ List of built-ins:
 - Body parser for text, JSON, and URL
 - Cookie parser
 - Logs
+- Error handling
+
+`app.listen` is intercepted to set the error middleware at the end.
 
 ## License
 
