@@ -1,7 +1,7 @@
 {
   "name": "simple-express",
   "version": "0.0.0",
-  "description": "",
+  "description": "Express with common settings and middlewares",
   "main": "index.js",
   "scripts": {
     "test": "standard"
