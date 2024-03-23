@@ -1,0 +1,30 @@
+{
+  "name": "simple-express",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/like/simple-express.git"
+  },
+  "author": "1337",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/like/simple-express/issues"
+  },
+  "homepage": "https://github.com/like/simple-express#readme",
+  "devDependencies": {
+    "standard": "^17.1.0"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.19.1",
+    "express-async-errors": "^3.1.1",
+    "like-backend": "^2.0.1",
+    "tiny-log-http": "^1.0.0"
+  }
+}
