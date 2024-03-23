@@ -1,6 +1,6 @@
 {
   "name": "like-express",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Express with common settings and middlewares",
   "main": "index.js",
   "scripts": {
