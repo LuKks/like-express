@@ -1,15 +1,15 @@
-# simple-express
+# like-express
 
 Express with common settings and middlewares
 
 ```
-npm i simple-express
+npm i like-express
 ```
 
 ## Usage
 
 ```js
-const express = require('simple-express')
+const express = require('like-express')
 
 // Use it as normal..
 const app = express()

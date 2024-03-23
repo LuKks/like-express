@@ -1,5 +1,5 @@
 {
-  "name": "simple-express",
+  "name": "like-express",
   "version": "0.0.0",
   "description": "Express with common settings and middlewares",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/like/simple-express.git"
+    "url": "git+https://github.com/like/express.git"
   },
   "author": "1337",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/like/simple-express/issues"
+    "url": "https://github.com/like/express/issues"
   },
-  "homepage": "https://github.com/like/simple-express#readme",
+  "homepage": "https://github.com/like/express#readme",
   "devDependencies": {
     "standard": "^17.1.0"
   },
