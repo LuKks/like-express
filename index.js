@@ -7,7 +7,7 @@ const logHTTP = require('tiny-log-http')
 const ErrorHTTP = require('tiny-error-http')
 const Backend = require('like-backend')
 
-module.exports = function (opts = {}) {
+exports = module.exports = function (opts = {}) {
   const app = express()
 
   app.set('trust proxy', true)
@@ -36,3 +36,11 @@ module.exports = function (opts = {}) {
 
   return app
 }
+
+exports.application = express.application
+exports.Router = express.Router
+exports.Route = express.Route
+exports.static = express.static
+exports.request = express.request
+exports.response = express.response
+exports.query = express.query
