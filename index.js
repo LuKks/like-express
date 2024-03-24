@@ -4,7 +4,6 @@ const express = require('express')
 const cors = require('cors')
 const cookieParser = require('cookie-parser')
 const logHTTP = require('tiny-log-http')
-const ErrorHTTP = require('tiny-error-http')
 const Backend = require('like-backend')
 
 exports = module.exports = function (opts = {}) {
@@ -25,14 +24,6 @@ exports = module.exports = function (opts = {}) {
   app.use(cookieParser())
 
   app.use(logHTTP({ userAgent: !Backend.testing, ...opts.logs }))
-
-  const listen = app.listen
-
-  app.listen = function () {
-    app.use(ErrorHTTP.middleware)
-
-    return listen(...arguments)
-  }
 
   return app
 }

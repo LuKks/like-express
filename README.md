@@ -11,7 +11,7 @@ npm i like-express
 ```js
 const express = require('like-express')
 
-// Use it as normal..
+// Use it like usual..
 const app = express()
 ```
 
@@ -25,9 +25,6 @@ List of built-ins:
 - Body parser for text, JSON, and URL
 - Cookie parser
 - Logs
-- Error handling
-
-`app.listen` is intercepted to set the error middleware at the end.
 
 ## License
 

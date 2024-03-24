@@ -25,7 +25,6 @@
     "express": "^4.19.1",
     "express-async-errors": "^3.1.1",
     "like-backend": "^2.0.1",
-    "tiny-error-http": "^1.0.0",
     "tiny-log-http": "^1.0.0"
   }
 }
