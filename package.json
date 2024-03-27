@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/like/express.git"
+    "url": "git+https://github.com/like/like-express.git"
   },
   "author": "1337",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/like/express/issues"
+    "url": "https://github.com/like/like-express/issues"
   },
-  "homepage": "https://github.com/like/express#readme",
+  "homepage": "https://github.com/like/like-express#readme",
   "devDependencies": {
     "standard": "^17.1.0"
   },
