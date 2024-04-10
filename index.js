@@ -4,6 +4,9 @@ const express = require('express')
 const cors = require('cors')
 const cookieParser = require('cookie-parser')
 const logHTTP = require('tiny-log-http')
+const Backend = require('like-backend')
+
+Backend.setContext(require, module)
 
 exports = module.exports = function (opts = {}) {
   const app = express()
@@ -22,7 +25,7 @@ exports = module.exports = function (opts = {}) {
 
   app.use(cookieParser())
 
-  app.use(logHTTP({ userAgent: !opts.testing, ...opts.logs }))
+  app.use(logHTTP({ userAgent: !Backend.testing, ...opts.logs }))
 
   return app
 }
